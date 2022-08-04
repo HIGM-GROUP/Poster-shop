@@ -1,0 +1,42 @@
+.form {
+  position: relative;
+  background: linear-gradient(60deg, #eee, #fff, #ddd);
+  height: 80vh;
+  .form-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    width: 40%;
+    background-color: #333;
+    border-radius: 10px;
+    h1 {
+      color: #eee;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .form-controller {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      input {
+        padding: 15px;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        width: 49%;
+      }
+    }
+    button {
+      display: block;
+      padding: 15px;
+      margin: 30px auto;
+      cursor: pointer;
+      font-size: 1.3rem;
+      border-radius: 37px;
+      width: 100%;
+      background: linear-gradient(#eee, #fff, #ddd);
+    }
+  }
+}
